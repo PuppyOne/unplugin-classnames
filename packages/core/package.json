@@ -11,6 +11,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "magic-string": "^0.30.21"
+    "magic-string": "^0.30.21",
+    "oxc-parser": "^0.134.0",
+    "oxc-walker": "^1.0.0"
   }
 }
