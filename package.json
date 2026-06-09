@@ -1,0 +1,11 @@
+{
+  "name": "unplugin-classnames-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "packageManager": "pnpm@11.5.2"
+}
