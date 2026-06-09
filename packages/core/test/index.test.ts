@@ -22,4 +22,12 @@ describe('transform', () => {
   it.fails('folds falsy logical AND expression', () => {
     expect(transform('<div className={["bg-black", false && "text-white"]}></div>', 'component.tsx')).toBe('<div className="bg-black"></div>')
   })
+
+  it.fails('folds truthy logical OR expression', () => {
+    expect(transform('<div className={["bg-black", true || "text-white"]}></div>', 'component.tsx')).toBe('<div className="bg-black"></div>')
+  })
+
+  it.fails('folds falsy logical OR expression', () => {
+    expect(transform('<div className={["bg-black", false || "text-white"]}></div>', 'component.tsx')).toBe('<div className="bg-black"></div>')
+  })
 })
