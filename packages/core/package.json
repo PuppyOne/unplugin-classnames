@@ -14,5 +14,15 @@
     "magic-string": "^0.30.21",
     "oxc-parser": "^0.134.0",
     "oxc-walker": "^1.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
   }
 }
