@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "PuppyOne",
+    "email": "zheng_xz@qq.com",
+    "url": "https://github.com/PuppyOne"
+  },
   "license": "Apache-2.0",
   "type": "module",
   "files": [
