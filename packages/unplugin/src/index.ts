@@ -1,11 +1,12 @@
 import type { Options } from './types'
 import { createUnplugin, type UnpluginFactory } from 'unplugin'
-import {transform}from'@unplugin-classnames/core'
+import { transform } from '@unplugin-classnames/core'
 
 export const unpluginFactory: UnpluginFactory<
   Options | undefined
 > = options => ({
   name: 'unplugin-classnames',
+  enforce: 'pre',
   transform
 })
 
