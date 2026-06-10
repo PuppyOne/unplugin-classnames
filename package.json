@@ -2,6 +2,7 @@
   "name": "unplugin-classnames-workspace",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "pnpm -r build",
     "test": "pnpm -r test",
