@@ -4,7 +4,7 @@ export default defineConfig({
   entry: ['src/*.ts'],
   deps: { skipNodeModulesBundle: true },
   minify: true,
-  exports: { legacy: true },
+  exports: true,
   publint: true,
   attw: true,
 });
