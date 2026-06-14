@@ -2,6 +2,15 @@
   "name": "unplugin-classnames",
   "version": "0.0.0-alpha.2",
   "description": "",
+  "homepage": "https://github.com/PuppyOne/unplugin-classnames#readme",
+  "bugs": {
+    "url": "https://github.com/PuppyOne/unplugin-classnames/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuppyOne/unplugin-classnames.git",
+    "directory": "packages/unplugin"
+  },
   "publishConfig": {
     "access": "public",
     "provenance": true
